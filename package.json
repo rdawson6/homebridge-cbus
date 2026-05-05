@@ -1,7 +1,7 @@
 {
   "name": "homebridge-cbus",
-  "version": "1.1.0",
-  "description": "CBus Platform plugin for homebridge",
+  "version": "1.2.0",
+  "description": "CBus Platform plugin for homebridge (Homebridge v2 compatible fork)",
   "license": "MIT",
   "homepage": "http://github.com/anthonywebb/homebridge-cbus/",
   "keywords": [
@@ -25,8 +25,8 @@
     "url": "http://github.com/anthonywebb/homebridge-cbus/issues"
   },
   "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.2.0"
+    "node": ">=14.0.0",
+    "homebridge": "^1.0.0 || ^2.0.0"
   },
   "dependencies": {
     "bytes": "^2.4.0",
